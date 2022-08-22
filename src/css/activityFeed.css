@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap");
+
+.div-archive {
+  margin-left: 5%;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.span-archive-all {
+  position: relative;
+  bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.span-archive-icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.spin {
+  animation: archive-icon-spin infinite 1.5s linear;
+}
+
+@keyframes archive-icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap");
+
+.div-type {
+  margin-left: 25%;
+}
+
+.div-detail-card {
+  width: 50%;
+  margin: auto;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.caller {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.div-receiver {
+  font-weight: 400;
+}
+
+.hour {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.div-day-call {
+  width: 100%;
+  margin: auto;
+}
+
+.duration,
+.via,
+.direction,
+.receiver,
+.duration {
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.archive-btn {
+  align-self: center;
+}
+
+.archive-btn button {
+  color: black;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.archive-btn button:hover {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 1000px) {
+  .div-type {
+    margin-left: 5%;
+  }
+  .div-detail-card {
+    width: 90%;
+  }
+  .time {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .caller {
+    font-size: 1.5rem;
+  }
+
+  .duration,
+  .via,
+  .direction,
+  .receiver,
+  .duration {
+    font-size: 1.2rem;
+  }
+}

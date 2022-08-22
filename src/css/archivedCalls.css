@@ -1,0 +1,32 @@
+.span-reset-all {
+  position: relative;
+  bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.span-unarchive-icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.spin {
+  animation: unarchive-icon-spin infinite 1.5s linear;
+}
+
+@keyframes unarchive-icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

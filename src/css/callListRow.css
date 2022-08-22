@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap");
+
+.activity-container {
+  display: flex;
+  margin-left: 2rem;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.activity-caller {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 0.5rem;
+}
+
+.div-caller {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.div-receiver {
+  font-weight: 400;
+}
+
+.div-date {
+  display: flex;
+}
+.div-date-item {
+  margin-right: 0.5rem;
+}
+
+.div-time-hour {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.div-time {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.viewBtn {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.div-buttons {
+  width: 20%;
+}
+
+.div-day-call {
+  width: 100%;
+  margin: auto;
+}
+
+.card {
+  width: 90%;
+  margin: auto;
+}
+
+.span-receiver {
+  font-size: 1.25rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.sapn-duration {
+  font-size: 1.1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 860px) {
+  .activity-container {
+    justify-content: flex-start;
+  }
+  .activity-caller {
+    width: 50%;
+  }
+  .div-time {
+    width: 20%;
+  }
+  .div-buttons {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .activity-container {
+    flex-direction: column;
+  }
+
+  .activity-caller {
+    width: 100%;
+  }
+
+  .div-receiver {
+    margin-top: 0.5rem;
+  }
+
+  .div-time {
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .div-buttons {
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  .div-time-hour {
+    margin-left: 0.5rem;
+  }
+
+  .div-duration {
+    margin-left: 1rem;
+  }
+}

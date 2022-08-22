@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&display=swap");
+
+.div-date-item {
+  margin-right: 0.5rem;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.date-header {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
