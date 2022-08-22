@@ -11,7 +11,7 @@ const app = express();
  app.use(requireHTTPS);
 app.use(express.static('./dist/speer-technologies-assessment'));
 app.get('/*', function(req, res) {
-  res.sendFile('index.html', {root: 'dist/speer-technologies-assessment/'}
+  res.sendFile('public/index.html', {root: 'dist/speer-technologies-assessment/'}
 );
 });
 
