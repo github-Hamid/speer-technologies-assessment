@@ -9,9 +9,9 @@ function requireHTTPS(req, res, next) {
 const express = require('express');
 const app = express();
  app.use(requireHTTPS);
-app.use(express.static('./dist/speer-technologies-assessment'));
+app.use(express.static('build/static/js/main.<hash>.js'));
 app.get('/*', function(req, res) {
-  res.sendFile('public/index.html', {root: 'dist/speer-technologies-assessment/'}
+  res.sendFile('index.html', {root: 'build/index.html'}
 );
 });
 
